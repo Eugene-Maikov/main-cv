@@ -2,11 +2,11 @@
 
 # __Майков Евгений Борисович__
 
-__Телефон:__ 89026864084\
-__E-mail:__ eugene-maikov2000@yandex.ru\
-__Telegram:__ https://t.me/eugene_maikov2000 \
+__Телефон:__ <a href="tel:+79026864084">+7 (902) 686-40-84</a>\
+__E-mail:__ <a href="mailto:eugene-maikov2000@yandex.ru">eugene-maikov2000@yandex.ru</a>\
+__Telegram:__ <a href="https://t.me/eugene_maikov2000">https://t.me/eugene_maikov2000</a> \
 __Личный сайт:__ В разработке\
-__GitHub:__ https://github.com/Eugene-Maikov
+__GitHub:__ <a href="https://github.com/Eugene-Maikov">https://github.com/Eugene-Maikov</a>
 
 __Цель:__ Смена работы\
 __Ожидаемая должность:__ Веб-разработчик\
