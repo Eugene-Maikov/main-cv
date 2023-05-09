@@ -1,3 +1,5 @@
+![image](https://github.com/Eugene-Maikov/personal-cv/assets/61806051/450df4f8-8f8e-44a7-9f5c-99e9e3a1f8a6)
+
 # __Майков Евгений Борисович__
 
 __Телефон:__ 89026864084\
