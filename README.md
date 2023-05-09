@@ -1,1 +1,1 @@
-## https://eugene-maikov.github.io/main-cv/cv
+## https://eugene-maikov.github.io/personal-cv/cv
