@@ -1,0 +1,149 @@
+.page-container {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  padding: 80px 70px;
+  margin: 50px 0;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__image img {
+  max-width: 380px;
+  min-width: 380px;
+  max-height: 530px;
+  min-height: 530px;
+  display: block;
+  object-fit: cover;
+}
+
+.header__image img {
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.header__content {
+  padding: 20px;
+  margin-left: 80px;
+}
+
+.header__name {
+  margin: 0;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 140%;
+}
+
+.header__name span {
+  font-weight: 400;
+}
+
+.header__subtitle {
+  margin: 0 0 50px 0;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 120%;
+}
+
+.header__about {
+  margin-bottom: 30px;
+}
+
+.header__about p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.header__about p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.main {
+  margin-top: 50px;
+  display: flex;
+}
+
+.main__left {
+  max-width: 380px;
+  min-width: 380px;
+}
+
+.main__right {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience {
+  background: var(--color-first);
+}
+
+.experience__item:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.contacts {
+  background: var(--color-second);
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+}
+
+.contacts__link {
+  display: flex;
+  color: var(--color-black);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.contacts__link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.contacts__icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.contacts__text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  white-space: nowrap;
+}
+
+.skills {
+  background: var(--color-third);
+}
+
+.skills__list {
+  padding-left: 20px;
+}
+
+.skills__list:not(:last-child) {
+  margin: 0 0 30px 0;
+}
+
+.skills__item {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.skills__item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.education {
+  background: var(--color-fourth);
+  flex: 1;
+}
+
+.education__item:not(:last-child) {
+  margin-bottom: 40px;
+}

@@ -5,6 +5,9 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <title>Персональное CV</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/settings.css">
@@ -13,8 +16,117 @@
 </head>
 <body>
 <div class="wrapper">
-  <header class="header">
-  </header>
+  <div class="container">
+    <div class="page-container">
+      <header class="header">
+
+        <div class="header__inner">
+          <div class="header__image">
+            <img width="380" height="530" src="img/avatar.jpg" alt="avatar">
+          </div>
+          <div class="header__content">
+            <h1 class="header__name"><span>Евгений</span> Майков</h1>
+            <h2 class="header__subtitle">Junior web developer</h2>
+            <div class="header__about">
+              <h3 class="header__about-title title--line">Обо мне</h3>
+              <p>Я начинающий веб-разработчик из Нижнего Новгорода. Развиваюсь в сторону Frontend и активно изучаю новые
+                технологии
+                для повышения качества моих проектов и оптимизации рабочего процесса. Есть опыт в верстке и
+                программировании реальных коммерческих проектов. Отлично работаю в команде и всегда открыт для
+                обсуждения
+                любых рабочих моментов.</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="main__left">
+          <article class="experience _block">
+            <h3 class="experience__title title--line">Опыт работы</h3>
+            <div class="experience__item">
+              <p class="type">Частная практика / фриланс</p>
+              <p class="date">Май 2020 — Август 2022</p>
+              <p class="description__text"><span>Должность: </span>HTML-верстальщик</p>
+              <p class="description__text"><span>Деятельность: </span>Разработка Frontend</p>
+            </div>
+            <div class="experience__item">
+              <p class="type">Станция скорой медицинской помощи НН</p>
+              <p class="date">Июль 2022 — по настоящее время</p>
+              <p class="description__text"><span>Должность: </span>Веб-разработчик</p>
+              <p class="description__text"><span>Деятельность: </span>Создание и администрирование официального сайта
+              </p>
+            </div>
+            <div class="experience__item">
+              <p class="type">Агентство интернет-маркетинга R-top</p>
+              <p class="date">Август 2022 — по настоящее время</p>
+              <p class="description__text"><span>Должность: </span>Веб-разработчик</p>
+              <p class="description__text"><span>Деятельность: </span>Верстка адаптивного, кроссбраузерного веб-сайта с
+                последующей посадкой на cms WordPress</p>
+            </div>
+          </article>
+          <article class="contacts _block">
+            <h3 class="contacts__title title--line">Контакты</h3>
+            <a href="tel:+79026864084" class="contacts__link">
+              <img width="20" class="contacts__icon" src="img/phone.svg" alt="">
+              <div class="contacts__text">+7 (902) 686-40-84</div>
+            </a>
+            <a href="mailto:eugene-maikov2000@yandex.ru" class="contacts__link">
+              <img width="20" class="contacts__icon" src="img/mail.svg" alt="">
+              <div class="contacts__text">eugene-maikov2000@yandex.ru</div>
+            </a>
+            <a href="https://t.me/eugene_maikov2000" class="contacts__link">
+              <img width="20" class="contacts__icon" src="img/telegram.svg" alt="">
+              <div class="contacts__text">@eugene_maikov2000</div>
+            </a>
+            <a href="https://github.com/Eugene-Maikov" class="contacts__link">
+              <img width="20" class="contacts__icon" src="img/github.svg" alt="">
+              <div class="contacts__text">Eugene-Maikov</div>
+            </a>
+          </article>
+        </section>
+        <section class="main__right">
+          <article class="skills _block">
+            <div class="skills__item">
+              <h3 class="skills__title title--line">Ключевые навыки</h3>
+              <div class="type">Hard skills</div>
+              <ul class="skills__list">
+                <li class="skills__item">Git, GitHub</li>
+                <li class="skills__item">JavaScript, TypeScript</li>
+                <li class="skills__item">HTM, CSS (Sass/Scss/Less) – Адаптивная, кроссбраузерная, валидная верстка (W3C)
+                  + БЭМ
+                </li>
+                <li class="skills__item">Работа с Gulp/npm – ESLint + Prettier</li>
+                <li class="skills__item">Php, WordPress</li>
+                <li class="skills__item">Bootstrap, Tailwind</li>
+                <li class="skills__item">Figma, Adobe Photoshop, Работа со sprite/svg</li>
+              </ul>
+              <div class="type">Soft skills</div>
+              <ul class="skills__list">
+                <li class="skills__item">Усидчивость, коммуникабельность, стрессоустойчивость, самостоятельность</li>
+                <li class="skills__item">Умение находить информацию</li>
+              </ul>
+            </div>
+          </article>
+          <article class="education _block">
+            <div class="education__item">
+              <h3 class="education__title title--line">Образование</h3>
+              <p class="type">Среднее профессиональное образование</p>
+              <p class="description__text">ГБПОУ «Нижегородский Губернский колледж» г. Нижний Новгород</p>
+              <p class="description__text"><span>Специальность: </span>Информационные системы и программирование</p>
+              <p class="description__text"><span>Квалификация: </span>Разработчик ВЕБ и мультимедийных приложений</p>
+            </div>
+            <div class="education__item">
+              <div class="type">Курсы</div>
+              <span class="description__text _mark">Прохожу на данный момент</span>
+              <p class="description__text">Rolling Scopes - RS School</p>
+              <p class="description__text"><span>Направление: </span>JS / FRONT-END (RU)</p>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </div>
+
 </div>
 </body>
 </html>
