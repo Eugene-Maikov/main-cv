@@ -18,6 +18,10 @@
   object-fit: cover;
 }
 
+.header__top-image {
+  display: none;
+}
+
 .header__image img {
   border-bottom-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -69,6 +73,8 @@
 .main__left {
   max-width: 380px;
   min-width: 380px;
+  display: flex;
+  flex-direction: column;
 }
 
 .main__right {
@@ -89,6 +95,7 @@
   background: var(--color-second);
   display: flex;
   flex-direction: column;
+  flex: 1;
   margin-left: -10px;
 }
 
