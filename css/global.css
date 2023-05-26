@@ -5,6 +5,7 @@
   --color-second: #FBEBEB;
   --color-third: #F8F3EF;
   --color-fourth: #FBEDE0;
+  --main-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .title--line {
