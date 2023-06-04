@@ -1,20 +1,20 @@
 :root {
   --font-family: "Roboto", sans-serif;
   --color-black: #191919;
-  --color-first: #FBEDE0;
-  --color-second: #FBEBEB;
-  --color-third: #F8F3EF;
-  --color-fourth: #FBEDE0;
+  --color-1: #FBEDE0;
+  --color-2: #FBEBEB;
+  --color-3: #F8F3EF;
+  --color-4: #FBEDE0;
   --main-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .title--line {
   position: relative;
   margin: 0 0 30px 0;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 600;
   line-height: 120%;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .title--line:after {
@@ -23,7 +23,7 @@
   bottom: 0;
   left: 0;
   width: 100px;
-  height: 3px;
+  height: 2px;
   background: var(--color-black);
 }
 
@@ -53,6 +53,21 @@
 .description__text span {
   font-weight: 600;
 }
+.description__list {
+  margin: 0 0 15px 0;
+  padding-left: 15px;
+}
+.description__list li{
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.experience__item a{
+  color: var(--color-black);
+}
+
 
 ._block {
   border-bottom-right-radius: 40px;
