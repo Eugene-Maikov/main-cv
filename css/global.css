@@ -83,3 +83,7 @@
   font-weight: 300;
   line-height: 130%;
 }
+
+.nowrap {
+  white-space: nowrap;
+}
